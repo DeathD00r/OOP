@@ -6,7 +6,7 @@ public class Lab1 {
 		
 		Scanner in = new Scanner(System.in);
 		
-		System.out.printl("Enter size of array:")
+		System.out.println("Enter size of array:");
 
 		int inputValue = in.nextInt();
 		
@@ -84,9 +84,10 @@ public class Lab1 {
 	       {
 	           if( array[i] <= array[end] ) 
 	           {
-	               int temp = array[marker]; // swap
+	               /*int temp = array[marker]; // swap
 	               array[marker] = array[i];
-	               array[i] = temp;
+	               array[i] = temp;*/
+	               swap(array, i, marker);
 	               marker += 1;
 	           }
 	       }
