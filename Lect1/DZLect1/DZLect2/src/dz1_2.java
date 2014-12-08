@@ -2,13 +2,13 @@ import java.util.*;
 
 public class dz1_2{
 	public static void main(String[] arg){
-		System.out.println("Enter number of Fibonacci")
+		System.out.println("Enter number of Fibonacci");
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
 		System.out.println();
-		System.out.println("Iteration")
+		System.out.println("Iteration");
 		System.out.println(getFibonacciIter(n));
-		System.out.println("Recursively")
+		System.out.println("Recursively");
 		System.out.println(getFibonacciRec(n));//рекурсивный метод намного прожорливее к
 		//ресурсам компьютера чем итерационный.
 	}

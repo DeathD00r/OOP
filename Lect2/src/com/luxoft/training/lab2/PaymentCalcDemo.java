@@ -18,7 +18,7 @@ public class PaymentCalcDemo{
 		Utils.sort(arr_employees, 0, 3);
 		
 		for(Employees emp: arr_employees)
-			System.out.println(emp.get_information());
+			System.out.println(emp.get_information() );
 	}
 
 }
